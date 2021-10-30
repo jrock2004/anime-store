@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "name": "Chainsaw Man Pochita Plush Pillow",
+    "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+    "price": {
+      "currency": "USD",
+      "value": 26.99
+    },
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/G/01/apparel/rcxgs/tile._CB483369110_.gif"
+  },
+  {
+    "id": "2",
+    "name": "Tokyo Ghoul Shirt",
+    "description": "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.",
+    "price": {
+      "currency": "USD",
+      "value": 22.95
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/71V5BwdUXuL._AC_UX569_.jpg"
+  }
+]
