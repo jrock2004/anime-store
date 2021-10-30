@@ -2,6 +2,7 @@
   "name": "anime-store",
   "version": "0.1.0",
   "dependencies": {
+    "@craco/craco": "^6.4.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -17,10 +18,10 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject",
     "start:safari": "BROWSER='safari' yarn start",
     "start:firefox": "BROWSER='firefox' yarn start",
     "server": "node --experimental-modules --experimental-json-modules ./mockServer.mjs",
@@ -50,8 +51,10 @@
   "devDependencies": {
     "@commitlint/cli": "^13.2.1",
     "@commitlint/config-conventional": "^13.2.0",
+    "@types/react-router-dom": "^5.3.2",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",
+    "autoprefixer": "^9.8.8",
     "cors": "^2.8.5",
     "eslint": "^7.30.0",
     "eslint-config-airbnb": "^18.2.1",
@@ -69,7 +72,9 @@
     "express": "^4.17.1",
     "husky": "^7.0.0",
     "nodemon": "^2.0.14",
-    "prettier": "^2.4.1"
+    "postcss": "^7.0.39",
+    "prettier": "^2.4.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   },
   "jest": {
     "collectCoverageFrom": [
