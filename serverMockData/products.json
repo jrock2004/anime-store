@@ -29,7 +29,18 @@
       "currency": "USD",
       "value": 12.99
     },
-    "imageUrl": "https://m.media-amazon.com/images/I/71V5BwdUXuL._AC_UX569_.jpg",
+    "imageUrl": "https://m.media-amazon.com/images/I/61gDAHxSoDL._AC_UL320_.jpg",
+    "featured": true
+  },
+  {
+    "id": "4",
+    "name": "Double Sided Pillowcase",
+    "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+    "price": {
+      "currency": "USD",
+      "value": 9.99
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/61+6vlRcfwL._AC_UL320_.jpg",
     "featured": false
   }
 ]
