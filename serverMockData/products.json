@@ -7,7 +7,8 @@
       "currency": "USD",
       "value": 26.99
     },
-    "imageUrl": "https://images-na.ssl-images-amazon.com/images/G/01/apparel/rcxgs/tile._CB483369110_.gif"
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/G/01/apparel/rcxgs/tile._CB483369110_.gif",
+    "featured": false
   },
   {
     "id": "2",
@@ -17,6 +18,18 @@
       "currency": "USD",
       "value": 22.95
     },
-    "imageUrl": "https://m.media-amazon.com/images/I/71V5BwdUXuL._AC_UX569_.jpg"
+    "imageUrl": "https://m.media-amazon.com/images/I/71V5BwdUXuL._AC_UX569_.jpg",
+    "featured": true
+  },
+  {
+    "id": "3",
+    "name": "Anime Pen Holder",
+    "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+    "price": {
+      "currency": "USD",
+      "value": 12.99
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/71V5BwdUXuL._AC_UX569_.jpg",
+    "featured": false
   }
 ]

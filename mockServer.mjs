@@ -12,7 +12,17 @@ app.use(express.urlencoded({ extended: true }));
 // API endpoints are defined here
 
 app.get('/api/products', (req, res) => {
-  return res.send(products);
+  const { query } = req;
+
+  if (Object.keys(query).length > 0) {
+    for (const property in query) {
+      const filtered = products.filter((item) => String(item[property]) === query[property]);
+
+      res.send(filtered);
+    }
+  } else {
+    return res.send(products);
+  }
 });
 
 app.get('/api/products/:id', (req, res) => {
