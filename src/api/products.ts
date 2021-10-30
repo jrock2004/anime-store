@@ -17,3 +17,7 @@ export const getFeaturedProducts = (): Promise<Products[]> => {
     response.json()
   );
 };
+
+export const getProducts = (): Promise<Products[]> => {
+  return fetch('http://localhost:3005/api/products').then((response) => response.json());
+};

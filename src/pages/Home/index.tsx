@@ -22,10 +22,10 @@ const Home = (): ReactElement => {
         </h2>
         <img alt="Showing Naruto, Goku, and Attack on Titan" className="mx-auto" src={heroImage} />
         {featuredProducts && featuredProducts.length > 0 && (
-          <div className="mt-12 flex gap-6 overflow-x-scroll">
+          <div className="mt-12 flex flex-col gap-6 overflow-x-scroll sm:flex-row">
             {featuredProducts.map((product) => (
               <Link key={`product-${product.id}`} to={`/product/${product.id}`}>
-                <FeaturedProduct product={product} />
+                <FeaturedProduct isHome={true} product={product} />
               </Link>
             ))}
           </div>

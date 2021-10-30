@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Nav } from './components/Nav';
 
 import Home from './pages/Home';
+import ProductListing from './pages/ProductListing';
 
 const App: React.FC = (): ReactElement => {
   return (
@@ -15,6 +16,9 @@ const App: React.FC = (): ReactElement => {
         </header>
         <main className="p-4">
           <Switch>
+            <Route path="/products">
+              <ProductListing />
+            </Route>
             <Route path="/">
               <Home />
             </Route>

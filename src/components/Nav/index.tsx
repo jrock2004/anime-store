@@ -5,6 +5,7 @@ export const Nav = (): ReactElement => {
   return (
     <nav>
       <NavLink
+        exact
         activeClassName="text-indigo-700 font-semibold"
         className="text-indigo-600"
         data-testid="home-link"
@@ -13,6 +14,7 @@ export const Nav = (): ReactElement => {
         Home
       </NavLink>
       <NavLink
+        exact
         activeClassName="text-indigo-700 font-semibold"
         className="text-indigo-600 ml-4"
         data-testid="products-link"
@@ -21,6 +23,7 @@ export const Nav = (): ReactElement => {
         Products
       </NavLink>
       <NavLink
+        exact
         activeClassName="text-indigo-700 font-semibold"
         className="text-indigo-600 ml-4"
         data-testid="about-link"
