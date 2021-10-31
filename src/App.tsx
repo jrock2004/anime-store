@@ -12,8 +12,8 @@ const App: React.FC = (): ReactElement => {
   return (
     <Router>
       <div className="h-full flex flex-col">
-        <header className="border-b p-4 flex justify-between">
-          <h1>Anime Store</h1>
+        <header className="border-b p-4 flex justify-between items-baseline">
+          <h1 className="font-bold text-2xl">Anime Store</h1>
           <Nav />
         </header>
         <main className="p-4">
