@@ -21,3 +21,7 @@ export const getFeaturedProducts = (): Promise<Products[]> => {
 export const getProducts = (): Promise<Products[]> => {
   return fetch('http://localhost:3005/api/products').then((response) => response.json());
 };
+
+export const getProduct = (id: string): Promise<Products> => {
+  return fetch(`http://localhost:3005/api/products/${id}`).then((response) => response.json());
+};
