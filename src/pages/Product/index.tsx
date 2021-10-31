@@ -19,7 +19,7 @@ const Product = (): ReactElement => {
   }, [id]);
 
   if (!product) {
-    return <h2>Something went wrong</h2>;
+    return <h2 className="font-semibold text-3xl text-center mt-4">Something Went Wrong!</h2>;
   } else {
     return (
       <div>

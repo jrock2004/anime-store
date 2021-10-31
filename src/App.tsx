@@ -6,6 +6,7 @@ import { Nav } from './components/Nav';
 import Home from './pages/Home';
 import ProductListing from './pages/ProductListing';
 import Product from './pages/Product';
+import About from './pages/About';
 
 const App: React.FC = (): ReactElement => {
   return (
@@ -22,6 +23,9 @@ const App: React.FC = (): ReactElement => {
             </Route>
             <Route path="/product/:id">
               <Product />
+            </Route>
+            <Route path="/about">
+              <About />
             </Route>
             <Route path="/">
               <Home />
