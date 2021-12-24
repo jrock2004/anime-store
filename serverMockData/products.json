@@ -2,17 +2,29 @@
   {
     "id": "1",
     "name": "Chainsaw Man Pochita Plush Pillow",
+    "slug": "chainsaw-man-pochita-plush-pillow",
+    "category": {
+      "id": "3",
+      "name": "Sleep",
+      "slug": "sleep"
+    },
     "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
     "price": {
       "currency": "USD",
       "value": 26.99
     },
-    "imageUrl": "https://images-na.ssl-images-amazon.com/images/G/01/apparel/rcxgs/tile._CB483369110_.gif",
+    "imageUrl": "https://m.media-amazon.com/images/I/61VxJoJ0NUL._AC_UL320_.jpg",
     "featured": false
   },
   {
     "id": "2",
     "name": "Tokyo Ghoul Shirt",
+    "slug": "tokyo-ghoul-shirt",
+    "category": {
+      "id": "1",
+      "name": "Shirts",
+      "slug": "shirts"
+    },
     "description": "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.",
     "price": {
       "currency": "USD",
@@ -24,6 +36,12 @@
   {
     "id": "3",
     "name": "Anime Pen Holder",
+    "slug": "anime-pen-holder",
+    "category": {
+      "id": "2",
+      "name": "Office",
+      "slug": "office"
+    },
     "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
     "price": {
       "currency": "USD",
@@ -35,6 +53,12 @@
   {
     "id": "4",
     "name": "Double Sided Pillowcase",
+    "slug": "double-sided-pillowcase",
+    "category": {
+      "id": "3",
+      "name": "Sleep",
+      "slug": "sleep"
+    },
     "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
     "price": {
       "currency": "USD",
@@ -42,5 +66,22 @@
     },
     "imageUrl": "https://m.media-amazon.com/images/I/61+6vlRcfwL._AC_UL320_.jpg",
     "featured": false
+  },
+  {
+    "id": "5",
+    "name": "Eat Sleep Anime Repeat Shirt",
+    "slug": "eat-sleep-anime-repeat-shirt",
+    "category": {
+      "id": "1",
+      "name": "Shirts",
+      "slug": "shirts"
+    },
+    "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+    "price": {
+      "currency": "USD",
+      "value": 19.95
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/71EjaZsmCAL._AC_UL320_.jpg",
+    "featured": true
   }
 ]

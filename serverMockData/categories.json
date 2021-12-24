@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "name": "Shirts",
+    "slug": "shirts"
+  },
+  {
+    "id": "2",
+    "name": "Office",
+    "slug": "office"
+  },
+  {
+    "id": "3",
+    "name": "Sleep",
+    "slug": "sleep"
+  }
+]

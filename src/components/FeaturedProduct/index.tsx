@@ -20,7 +20,9 @@ export const FeaturedProduct = ({ isHome, product }: FeaturedProductType): React
       </div>
       <div className="flex">
         <div>
-          <p className="line-clamp-5 mr-2 text-sm">{product.description}</p>
+          <p className="line-clamp-5 mr-2 text-sm" title={product.description}>
+            {product.description}
+          </p>
         </div>
         <img
           alt={product.description}

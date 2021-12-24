@@ -1,7 +1,11 @@
 import { ReactElement, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
-export const Nav = (): ReactElement => {
+type NavProp = {
+  isFooter?: boolean;
+};
+
+export const Nav = ({ isFooter }: NavProp): ReactElement => {
   const [expanded, setExpanded] = useState(false);
 
   const menuToggleHandler = (): void => {
@@ -10,7 +14,11 @@ export const Nav = (): ReactElement => {
 
   return (
     <div>
-      <button className="sm:hidden" data-testid="mobile-menu" onClick={menuToggleHandler}>
+      <button
+        className={`sm:hidden ${isFooter ? 'hidden' : ''}`}
+        data-testid="mobile-menu"
+        onClick={menuToggleHandler}
+      >
         <span className="sr-only">Mobile Menu</span>
         {expanded ? (
           <svg

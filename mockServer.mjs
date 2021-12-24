@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import products from './serverMockData/products.json';
+import categories from './serverMockData/categories.json';
 
 const app = express();
 const PORT = process.env.PORT || 3005;
@@ -35,6 +36,21 @@ app.get('/api/products/:id', (req, res) => {
     return res.status(404).send({
       error: 'Product not found!',
     });
+  }
+});
+
+app.get('/api/categories', (req, res) => {
+  res.send(categories);
+});
+
+app.get('/api/categories/:slug', (req, res) => {
+  const slug = req.params.slug;
+  const cats = categories.find((item) => item.slug.toLowerCase() === slug.toLowerCase());
+
+  if (cats) {
+    return res.send(cats);
+  } else {
+    return res.send(categories);
   }
 });
 

@@ -33,7 +33,10 @@ const App: React.FC = (): ReactElement => {
           </Switch>
         </main>
         <footer className="border-t p-4 flex justify-between mt-auto">
-          <Nav />
+          <Nav isFooter={true} />
+          <a className="text-sm" data-testid="privacy-link" href="https://google.com">
+            Privacy
+          </a>
         </footer>
       </div>
     </Router>
